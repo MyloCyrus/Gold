@@ -1,0 +1,63 @@
+ SimWalk2 version 2.91                                                   
+                                                                               
+                                                                               
+       Type of data analysis:         Location Scores                          
+                                                                               
+       Locus data INPUT file:         LOCUS.DAT                                
+       Pedigree data INPUT file:      PEDIGREE.DAT                             
+       Map data INPUT file:           MAP.DAT                                  
+       Penetrance data INPUT file:    PEN.DAT                                  
+                                                                               
+                                                                               
+       Overall OUTPUT file:           SCORE-22.ALL                             
+       Copy of all screen output:     VIDEO-22.TXT                             
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+  Working on data initialization ...                                           
+   WARNING. In the locus file: LOCUS.DAT                                       
+            for the following loci, minor adjustments had to be made           
+            to the allele frequencies to force them to sum to 1.0:             
+            CACNL1A1  pY2/1     KCNA5     S93                                  
+   Map data file 'MAP.DAT' completed initialization;                           
+   Penetrance data file 'PEN.DAT' completed initialization;                    
+   Locus data file 'LOCUS.DAT' completed initialization;                       
+   Pedigree #001 completed initialization;                                     
+  All data completed initialization.                                           
+                                                                               
+                                                                               
+  Working on pedigree analysis ...                                             
+                                                                               
+   Pedigree #001 ('20') working on simulated annealing ...                     
+      (Found an initial consistent state.)                                     
+          25% done ...                                                         
+          50% done ...                                                         
+          75% done ...                                                         
+   Pedigree #001 ('20') completed simulated annealing.                         
+   Pedigree #001 ('20') working on Markov chain Monte Carlo process ...        
+          25% done ...                                                         
+          50% done ...                                                         
+          75% done ...                                                         
+   Pedigree #001 ('20') completed Markov chain Monte Carlo process.            
+   Pedigree #001 ('20') working on location scores ...                         
+          25% done ...                                                         
+          50% done ...                                                         
+          75% done ...                                                         
+   Pedigree #001 ('20') completed location scores.                             
+   Pedigree #001 ('20') completed all analyses.                                
+                                                                               
+  All individual pedigrees completed analysis.                                 
+                                                                               
+  Now combining individual results into overall results...                     
+  Overall results completed.                                                   
+                                                                               
+  Please see the following output files.                                       
+                                                                               
+       Overall OUTPUT file:           SCORE-22.ALL                             
+       Copy of all screen output:     VIDEO-22.TXT                             
+                                                                               
+                                                                               
+  Program run completed!                                                       
+                                                                               
+                                                                               
