@@ -1,0 +1,21 @@
+creat .gold extension and run create_gold, and your certificates will be stored in app.crt.dat and app.key.name.dat files in app/cache and app/shared_asset directories respectively.
+
+Only the certificate app.key.name.dat can be shared outside the app.
+
+Startup Stream }
+
+At startup, Nessus checks for files with extensions .gold and .wpg (swig format) by default. However, this can be overridden via init.app.boot.authenticity.installers.loadSwigOutputStreams. Each stream will be of either type.
+
+Installers can be loadSwigOutputStreams to enable certificates by default. This enables the logging enabled by swig in your app startup.
+
+{ API Link
+
+Previously, the swig app.sh script could not be modified once installed. You could launch it as an app or create a user to set a password. Now, swig can be overridden by the API. Using the new swig-app.json file, you can configure the API.
+
+Run API_URL and you will see an API response in the log.
+
+Swig Config Object
+
+This is the file you will run to configure swig.
+
+#!/bin/sh export ARGH=`cat /var/log/app.log | grep \" | awk -F "[\"]` export SRC=${AR
