@@ -1,0 +1,183 @@
+Episodic Ataxia (EA) pedigree: Mistyping
+     
+                      Recombination Statistics from SimWalk2 2.91
+     
+     
+ Here, for each marker interval, is the number of recombinations observed
+ and the number expected, given the total number of meioses & the interval size.
+     
+ The 'observed value' listed below is the average over all pedigrees that were
+ sampled during the MCMC phase. Thus, this value is an estimate of the average
+ over all possible configurations each weighted by its likelihood, i.e.,
+ given the data, this is our best estimate of the true value.
+     
+ We also estimate the p-value for these observations, i.e., the probability that
+ one would observe this many recombination events OR MORE within this interval,
+ again given the total number of meioses & the interval size. A very small
+ p-value indicates that the number of observed recombinations would be more
+ consistent with a larger recombination distance for this marker interval.
+ Similarly, a p-value close to 1 indicates that the user-specified recombination
+ distance for this interval should be re-evaluated and perhaps made smaller.
+ Such extreme p-values are flagged when they appear.
+     
+     
+ The total number of pedigrees actually analyzed here:              1
+ The total number of meioses contained in these pedigrees:         40
+     
+ Since the user-specified recombination distances are sex-independent,
+ we report the combined female and male recombination statistics.
+     
+     
+     
+                     OVERALL RECOMBINATION STATISTICS
+     
+     
+ POSITION   MARKER     RECOMB.   RECOMBINATION EVENTS   SIGNIFICANCE    INTERVAL
+Haldane cM   NAME     FRACTION    OBSERVED & EXPECTED     (P-VALUE)      NUMBER 
+     
+    0.000   S91     
+                       0.01000       0.215      0.400      0.84286          1
+    1.010   S100    
+                       0.01000       0.240      0.400      0.82400          2
+    2.020   CACNL1A1
+                       0.03000       1.025      1.200      0.69458          3
+    5.114   S372    
+                       0.03000       2.669      1.200      0.17252          4
+    8.208   pY2/1   
+                       0.01000       0.322      0.400      0.76218          5
+    9.218   pY21/1  
+                       0.01000       1.064      0.400      0.30141          6
+   10.228   KCNA5   
+                       0.01000       0.080      0.400      0.94321          7
+   11.238   S99     
+                       0.01000       0.390      0.400      0.71145          8
+   12.248   S93     
+     
+     
+________________________________________________________________________________
+     
+                      Episodic Ataxia (EA) pedigree: Mistyping
+     
+                      Batch Instruction Parameters
+     
+     
+ Below are listed the SimWalk2 2.91 instruction parameters used in this run.
+ Also, where appropriate, the default values of the batch items are listed.
+     
+ (Please see the documentation for a more complete description
+  of the meaning of these parameters.)
+     
+     
+Batch                                                                 Actual    
+Item              GENERAL PARAMETERS                                  Value     
+     
+# 1    Type of analysis:                                             MISTYPING 
+# 2    Integer label attached to the output files:                      55     
+# 3    Title for this run is the above title:                      (see above) 
+# 4    Continuation of previous run?                                    NO     
+       Number of pedigrees analyzed in this entire run:                  1     
+     
+     
+Batch                                                                 Actual    
+Item              INPUT-FILE PARAMETERS                               Value     
+     
+#09    Map data filename:                                              MAP.DAT 
+#10    Locus data filename:                                          LOCUS.DAT 
+#11    Pedigree data filename:                                    PEDIGREE.DAT 
+#12.1  Symbol for females (case insensitive):                            F     
+#12.2  Symbol for   males (case insensitive):                            M     
+#13.1  Trait locus included in analyzed data?                          YES     
+#16    Affection status is indicated by the label:                       2     
+#17    Affection status is indicated at the:                       TRAIT LOCUS 
+#18    Number of quantitative variables:                                 1     
+#19    No trait penetrances file:                                              
+     
+Marker Map:
+     
+POSITION (Haldane cM)    MARKER        RECOMBINATION RATES     INTERVAL 
+   FEMALE  &   MALE       ORDER         FEMALE  &   MALE        NUMBER  
+    0.000      0.000    S91     
+                                       0.01000    0.01000          1
+    1.010      1.010    S100    
+                                       0.01000    0.01000          2
+    2.020      2.020    CACNL1A1
+                                       0.03000    0.03000          3
+    5.114      5.114    S372    
+                                       0.03000    0.03000          4
+    8.208      8.208    pY2/1   
+                                       0.01000    0.01000          5
+    9.218      9.218    pY21/1  
+                                       0.01000    0.01000          6
+   10.228     10.228    KCNA5   
+                                       0.01000    0.01000          7
+   11.238     11.238    S99     
+                                       0.01000    0.01000          8
+   12.248     12.248    S93     
+     
+     
+Batch                                                      Default    Actual    
+Item              RUN-SPECIFYING PARAMETERS                 Value     Value     
+     
+#20    Number of pedigrees sampled for each input pedigree  1000      1000      
+#21    Number of parallel runs during simulated annealing:     1         1      
+#22    Initial temperature value:                            100.00    100.00   
+#23    Temperature change factor:                              0.99      0.99   
+#24    Number of temperature changes:                        800       800      
+#25    Number of pre-simulated annealing steps:                0         0      
+#26    Maximum number of attempts to initialize pedigrees:    64        64      
+     
+       Number of steps per temperature is roughly:                   20800     
+#29.1    using a minimum number of steps of:                1000      1000      
+#30.1    and a multiplicative factor of:                      10        10      
+       Number of steps per sampled pedigree is roughly:              20800     
+#29.2    using a minimum number of steps of:                1000      1000      
+#30.2    and a multiplicative factor of:                      10        10      
+       Mean number of transitions per step
+#31.1    during simulated annealing:                           2.00      2.00   
+#31.2    during Markov chain Monte Carlo process:              2.00      2.00   
+       Weight factor for individuals untyped at a locus
+#32.1    during simulated annealing:                          10        10      
+#32.2    during Markov chain Monte Carlo process:             10        10      
+       Frequency that next pivot is forced to be nearby
+#33.1    during simulated annealing:                           0.50      0.50   
+#33.2    during Markov chain Monte Carlo process:              0.50      0.50   
+       Frequency that a founder transition is of type 2
+#34.1    during simulated annealing:                           0.25      0.25   
+#34.2    during Markov chain Monte Carlo process:              0.25      0.25   
+#35    Number of steps between free runs:                      0         0      
+#36.1  Random seed number 1:                               27713     27713     
+#36.2  Random seed number 2:                                2321      2321     
+#36.3  Random seed number 3:                               18777     18777     
+#37.1  Error model for mistyping:                          uniform   uniform    
+#37.2  Overall rate of mistyping:                              0.025     0.025  
+     
+     
+Batch                                                                 Actual    
+Item              OUTPUT-FILE PARAMETERS                              Value     
+     
+#39    Files to output from IBD analysis:                        IBD & KINSHIP 
+#40    Output the pedigrees individually in INPED-nn.mmm?               NO     
+#41    Output the location scores per pedigree in SCORE-nn.mmm?         NO     
+#42    Threshold for mistyping probability to be significant:            0.50  
+#43    Export haplotypes for drawing applications?                      NO     
+#44.1  Threshold haplotype   count for RERUN-nn.PED entry:               0     
+#44.2  Threshold recombinant count for RERUN-nn.PED entry:               0     
+#45    Threshold fraction of steps for RERUN-nn.PED entry:               0.85  
+#46.1  Output haplotypes in vertical representations?                   NO     
+#46.2  Output haplotypes using founder-haplotype labels?                NO     
+#46.3  Force allele choice when no allele information exists?           NO     
+#47    Output the sampled peds in LINKAGE-format in MODEL-nn.*?         NO     
+#48    Num. of unconditional simulations for empirical p-value:      10000     
+#49.1  Number of points analyzed within each marker interval:            3     
+#49.2  Size of uniform grid interval for analysis positions:             1.00  
+     
+     
+     With the above parameters, the number of steps
+       per simulated annealing run is roughly:                    16640000     
+       per Markov chain Monte Carlo run is roughly:               20800000     
+     
+     
+All relevant 'Run-Specifying Parameters' are at their default values.
+     
+________________________________________________________________________________
+     
