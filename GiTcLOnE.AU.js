@@ -1,0 +1,9 @@
+length
+: 
+0
+name
+: 
+"GitCloneHelpElement"
+observedAttributes
+: 
+(AU)
