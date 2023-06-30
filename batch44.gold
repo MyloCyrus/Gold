@@ -1,0 +1,37 @@
+01                       ! batch item number
+4                        ! analysis: 1=Haplo; 2=LOD; 3=NPL; 4=IBD; 5=Mistyping
+     
+02                       ! batch item number
+44                       ! integer label for this run of the program
+     
+03                       ! batch item number
+Episodic Ataxia (EA) pedigree: IBD            
+     
+09                       ! batch item number
+MAP.DAT                  ! name of map file
+     
+10                       ! batch item number
+LOCUS.DAT                ! name of locus file
+     
+11                       ! batch item number
+PEDIGREE.DAT             ! name of pedigree file
+     
+12                       ! batch item number
+F                        ! symbol for female (case insensitive)
+M                        ! symbol for   male (case insensitive)
+     
+13                       ! batch item number
+Y                        ! is trait listed in locus and pedigree files?
+     
+17                       ! batch item number
+-1                       ! -1 => find IBD values for all pairs of individuals
+     
+18                       ! batch item number
+1                        ! number of quantitative variables in pedigree file
+     
+39                       ! batch item number
+ALL                      ! which IBD analysis files to output: IBD, KIN or ALL
+     
+49                       ! batch item number
+-1                       ! points within each marker interval; -1 => use grid
+0.5                      ! grid increment in cM at which values are computed
