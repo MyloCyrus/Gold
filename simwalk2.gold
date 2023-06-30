@@ -1,0 +1,29 @@
+  Episodic Ataxia (EA) pedigree: Mistyping
+!
+!            Key to Allele Imputation Exchange File from SimWalk2 2.91
+!
+!
+! This file contains the key to the imputed expected allele counts
+! used in the Allele Exchange File: AEF-55.ALL     
+!
+! The following table is comma-delimited.
+!
+!  LOCUS  , Haldane cM , NUMBER OF,
+!  NAME   , Sex-Average,  ALLELES ,  ALLELE NAMES
+!
+ S91      ,     0.000  ,     6    ,  1    ,  2    ,  3    ,  4    ,  5    ,
+                                     6    ,
+ S100     ,     1.010  ,     6    ,  1    ,  2    ,  3    ,  4    ,  5    ,
+                                     6    ,
+ CACNL1A1 ,     2.020  ,     7    ,  1    ,  2    ,  7    ,  8    ,  9    ,
+                                     10   ,  12   ,
+ S372     ,     5.114  ,     5    ,  1    ,  2    ,  3    ,  4    ,  5    ,
+ pY2/1    ,     8.208  ,     7    ,  1    ,  2    ,  3    ,  4    ,  5    ,
+                                     6    ,  7    ,
+ pY21/1   ,     9.218  ,     9    ,  1    ,  2    ,  3    ,  4    ,  5    ,
+                                     6    ,  7    ,  9    ,  10   ,
+ KCNA5    ,    10.228  ,     5    ,  1    ,  2    ,  3    ,  4    ,  6    ,
+ S99      ,    11.238  ,     8    ,  1    ,  2    ,  3    ,  4    ,  5    ,
+                                     6    ,  7    ,  8    ,
+ S93      ,    12.248  ,     7    ,  1    ,  2    ,  3    ,  4    ,  5    ,
+                                     6    ,  7    ,
