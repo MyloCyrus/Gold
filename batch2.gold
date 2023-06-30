@@ -1,0 +1,27 @@
+01                       ! batch item number
+1                        ! analysis: 1=Haplo; 2=LOD; 3=NPL; 4=IBD; 5=Mistyping
+     
+02                       ! batch item number
+11                       ! integer label for this run of the program
+     
+03                       ! batch item number
+Episodic Ataxia (EA) pedigree: Haplotype            
+     
+09                       ! batch item number
+MAP.DAT                  ! name of map file
+     
+10                       ! batch item number
+LOCUS.DAT                ! name of locus file
+     
+11                       ! batch item number
+PEDIGREE.DAT             ! name of pedigree file
+     
+12                       ! batch item number
+F                        ! symbol for female (case insensitive)
+M                        ! symbol for   male (case insensitive)
+     
+13                       ! batch item number
+Y                        ! is trait listed in locus and pedigree files?
+     
+18                       ! batch item number
+1                        ! number of quantitative variables in pedigree file
