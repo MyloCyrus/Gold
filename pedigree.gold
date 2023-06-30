@@ -1,0 +1,389 @@
+Episodic Ataxia (EA) pedigree: LOD score
+     
+                   Overall Location Scores from SimWalk2 2.91
+ MENDEL version 3.35 by Ken Lange is used in the computation of these results
+     
+     
+ This file contains the location scores calculated using ALL pedigrees.
+ These location scores are directly comparable to multipoint LOD scores.
+ All location scores and log-likelihoods are in log10 units.
+     
+ All the parameters used to set up this run, including the marker map
+ and penetrance model, if any, are listed at the end of this file.
+     
+ Alpha is the name given to the 'a priori' proportion of linked pedigrees,
+ i.e., if there is a trait locus in this region, alpha is the proportion
+ of these pedigrees that contains an affected genotype at this trait locus.
+ So, alpha = 1.00 implies no locus heterogeneity.
+     
+ The value for alpha is set using Batch Item #13.2. When the user sets a value
+ for alpha < 1.0, then the location scores assumming that value are also shown.
+     
+     
+ The following tables are comma-delimited to facilitate graphing these results.
+     
+ The first table below lists the largest location score found in the
+ analysis of each pedigree individually. (Only the pedigrees within
+ this run are listed.) Also listed for each pedigree is the first
+ position that had this score, given in distance (in sex-average Haldane cM)
+ from the first marker in this study.
+     
+        ,            ,                  ,      LARGEST      ,                   
+PEDIGREE,  PEDIGREE  ,     POSITION     ,  LOCATION SCORE   ,                   
+ NUMBER ,    NAME    ,   in Haldane cM  ,  when alpha=1.00  ,                   
+     
+ 001    ,  20        ,        6.6609    ,       3.560       ,                   
+     
+     
+ The remaining results in this file are calculated by combining
+ ALL the pedigrees in this study (including any previous runs that
+ were 'continued' into this run).
+     
+ The overall log-likelihood considering ONLY THE TRAIT is:       -8.554
+     
+ The overall log-likelihood considering ONLY THE MARKERS is:   -333.414
+     
+ The following table lists the overall location scores for positions
+ (measured in sex-average Haldane cM) throughout the specified markers.
+ The overall scores are listed for alpha=1.0 and for any requested,
+ specific alpha value. The maximum location score allowing for locus
+ heterogeneity is also reported, maximized over a grid of possible
+ values for alpha: 0.00, 0.05, 0.10, 0.15, ..., 0.90, 0.95, and 1.0.
+ Finally, the alpha value (from this grid) that corresponds to this maximum,
+ heterogeneous location score, is also listed for each position.
+     
+     
+ MARKER ,  POSITION  , LOCATION SCORE ,                , MAX HETEROGEN  ,  ALPHA
+  NAME  , Haldane cM ,   alpha=1.00   ,                , LOCATION SCORE ,  VALUE
+     
+        ,   -49.9999 ,       1.548    ,                ,       1.548    ,   1.00
+        ,   -45.0000 ,       1.700    ,                ,       1.700    ,   1.00
+        ,   -40.0000 ,       1.862    ,                ,       1.862    ,   1.00
+        ,   -35.0000 ,       2.033    ,                ,       2.033    ,   1.00
+        ,   -30.0000 ,       2.212    ,                ,       2.212    ,   1.00
+        ,   -25.0000 ,       2.396    ,                ,       2.396    ,   1.00
+        ,   -20.0000 ,       2.581    ,                ,       2.581    ,   1.00
+        ,   -15.0000 ,       2.760    ,                ,       2.760    ,   1.00
+        ,   -10.0000 ,       2.918    ,                ,       2.918    ,   1.00
+        ,    -5.0000 ,       3.016    ,                ,       3.016    ,   1.00
+        ,    -0.0001 ,       2.870    ,                ,       2.870    ,   1.00
+S91     
+        ,     0.0001 ,       2.870    ,                ,       2.870    ,   1.00
+        ,     0.1010 ,       2.844    ,                ,       2.844    ,   1.00
+        ,     0.2020 ,       2.817    ,                ,       2.817    ,   1.00
+        ,     0.3030 ,       2.787    ,                ,       2.787    ,   1.00
+        ,     0.4041 ,       2.756    ,                ,       2.756    ,   1.00
+        ,     0.5051 ,       2.722    ,                ,       2.722    ,   1.00
+        ,     0.6061 ,       2.685    ,                ,       2.685    ,   1.00
+        ,     0.7071 ,       2.644    ,                ,       2.644    ,   1.00
+        ,     0.8081 ,       2.599    ,                ,       2.599    ,   1.00
+        ,     0.9091 ,       2.550    ,                ,       2.550    ,   1.00
+        ,     1.0100 ,       2.493    ,                ,       2.493    ,   1.00
+S100    
+        ,     1.0102 ,       2.493    ,                ,       2.493    ,   1.00
+        ,     1.1111 ,       2.488    ,                ,       2.488    ,   1.00
+        ,     1.2122 ,       2.483    ,                ,       2.483    ,   1.00
+        ,     1.3132 ,       2.478    ,                ,       2.478    ,   1.00
+        ,     1.4142 ,       2.473    ,                ,       2.473    ,   1.00
+        ,     1.5152 ,       2.468    ,                ,       2.468    ,   1.00
+        ,     1.6162 ,       2.463    ,                ,       2.463    ,   1.00
+        ,     1.7172 ,       2.457    ,                ,       2.457    ,   1.00
+        ,     1.8182 ,       2.451    ,                ,       2.451    ,   1.00
+        ,     1.9193 ,       2.445    ,                ,       2.445    ,   1.00
+        ,     2.0202 ,       2.439    ,                ,       2.439    ,   1.00
+CACNL1A1
+        ,     2.0204 ,       2.439    ,                ,       2.439    ,   1.00
+        ,     2.3296 ,       2.421    ,                ,       2.421    ,   1.00
+        ,     2.6390 ,       2.401    ,                ,       2.401    ,   1.00
+        ,     2.9484 ,       2.380    ,                ,       2.380    ,   1.00
+        ,     3.2578 ,       2.356    ,                ,       2.356    ,   1.00
+        ,     3.5672 ,       2.330    ,                ,       2.330    ,   1.00
+        ,     3.8765 ,       2.301    ,                ,       2.301    ,   1.00
+        ,     4.1859 ,       2.270    ,                ,       2.270    ,   1.00
+        ,     4.4953 ,       2.236    ,                ,       2.236    ,   1.00
+        ,     4.8047 ,       2.199    ,                ,       2.199    ,   1.00
+        ,     5.1139 ,       2.158    ,                ,       2.158    ,   1.00
+S372    
+        ,     5.1141 ,       2.159    ,                ,       2.159    ,   1.00
+        ,     5.4234 ,       3.149    ,                ,       3.149    ,   1.00
+        ,     5.7328 ,       3.378    ,                ,       3.378    ,   1.00
+        ,     6.0422 ,       3.490    ,                ,       3.490    ,   1.00
+        ,     6.3515 ,       3.544    ,                ,       3.544    ,   1.00
+        ,     6.6609 ,       3.560    ,                ,       3.560    ,   1.00
+        ,     6.9703 ,       3.542    ,                ,       3.542    ,   1.00
+        ,     7.2797 ,       3.484    ,                ,       3.484    ,   1.00
+        ,     7.5891 ,       3.367    ,                ,       3.367    ,   1.00
+        ,     7.8984 ,       3.122    ,                ,       3.122    ,   1.00
+        ,     8.2077 ,       1.506    ,                ,       1.506    ,   1.00
+pY2/1   
+        ,     8.2079 ,       1.499    ,                ,       1.499    ,   1.00
+        ,     8.3088 ,       1.503    ,                ,       1.503    ,   1.00
+        ,     8.4098 ,       1.506    ,                ,       1.506    ,   1.00
+        ,     8.5109 ,       1.508    ,                ,       1.508    ,   1.00
+        ,     8.6119 ,       1.509    ,                ,       1.509    ,   1.00
+        ,     8.7129 ,       1.510    ,                ,       1.510    ,   1.00
+        ,     8.8139 ,       1.509    ,                ,       1.509    ,   1.00
+        ,     8.9149 ,       1.508    ,                ,       1.508    ,   1.00
+        ,     9.0159 ,       1.506    ,                ,       1.506    ,   1.00
+        ,     9.1169 ,       1.503    ,                ,       1.503    ,   1.00
+        ,     9.2178 ,       1.499    ,                ,       1.499    ,   1.00
+pY21/1  
+        ,     9.2180 ,       1.499    ,                ,       1.499    ,   1.00
+        ,     9.3190 ,       1.503    ,                ,       1.503    ,   1.00
+        ,     9.4200 ,       1.506    ,                ,       1.506    ,   1.00
+        ,     9.5210 ,       1.508    ,                ,       1.508    ,   1.00
+        ,     9.6220 ,       1.509    ,                ,       1.509    ,   1.00
+        ,     9.7230 ,       1.510    ,                ,       1.510    ,   1.00
+        ,     9.8240 ,       1.509    ,                ,       1.509    ,   1.00
+        ,     9.9250 ,       1.508    ,                ,       1.508    ,   1.00
+        ,    10.0261 ,       1.506    ,                ,       1.506    ,   1.00
+        ,    10.1271 ,       1.503    ,                ,       1.503    ,   1.00
+        ,    10.2280 ,       1.499    ,                ,       1.499    ,   1.00
+KCNA5   
+        ,    10.2282 ,       1.499    ,                ,       1.499    ,   1.00
+        ,    10.3291 ,       1.503    ,                ,       1.503    ,   1.00
+        ,    10.4301 ,       1.506    ,                ,       1.506    ,   1.00
+        ,    10.5311 ,       1.508    ,                ,       1.508    ,   1.00
+        ,    10.6321 ,       1.509    ,                ,       1.509    ,   1.00
+        ,    10.7331 ,       1.510    ,                ,       1.510    ,   1.00
+        ,    10.8342 ,       1.509    ,                ,       1.509    ,   1.00
+        ,    10.9352 ,       1.508    ,                ,       1.508    ,   1.00
+        ,    11.0362 ,       1.506    ,                ,       1.506    ,   1.00
+        ,    11.1372 ,       1.503    ,                ,       1.503    ,   1.00
+        ,    11.2381 ,       1.499    ,                ,       1.499    ,   1.00
+S99     
+        ,    11.2383 ,       1.499    ,                ,       1.499    ,   1.00
+        ,    11.3392 ,       1.497    ,                ,       1.497    ,   1.00
+        ,    11.4402 ,       1.493    ,                ,       1.493    ,   1.00
+        ,    11.5413 ,       1.489    ,                ,       1.489    ,   1.00
+        ,    11.6423 ,       1.484    ,                ,       1.484    ,   1.00
+        ,    11.7433 ,       1.478    ,                ,       1.478    ,   1.00
+        ,    11.8443 ,       1.471    ,                ,       1.471    ,   1.00
+        ,    11.9453 ,       1.463    ,                ,       1.463    ,   1.00
+        ,    12.0463 ,       1.454    ,                ,       1.454    ,   1.00
+        ,    12.1473 ,       1.445    ,                ,       1.445    ,   1.00
+        ,    12.2483 ,       1.434    ,                ,       1.434    ,   1.00
+S93     
+        ,    12.2485 ,       1.435    ,                ,       1.435    ,   1.00
+        ,    17.2484 ,       2.802    ,                ,       2.802    ,   1.00
+        ,    22.2484 ,       2.781    ,                ,       2.781    ,   1.00
+        ,    27.2484 ,       2.654    ,                ,       2.654    ,   1.00
+        ,    32.2484 ,       2.492    ,                ,       2.492    ,   1.00
+        ,    37.2484 ,       2.319    ,                ,       2.319    ,   1.00
+        ,    42.2484 ,       2.145    ,                ,       2.145    ,   1.00
+        ,    47.2484 ,       1.973    ,                ,       1.973    ,   1.00
+        ,    52.2484 ,       1.808    ,                ,       1.808    ,   1.00
+        ,    57.2484 ,       1.652    ,                ,       1.652    ,   1.00
+        ,    62.2483 ,       1.504    ,                ,       1.504    ,   1.00
+     
+     
+ For alpha = 1.00,  the largest overall location score is:      3.560
+                              at position (in Haldane cM):      6.6609
+     
+ On the alpha grid, the largest overall location score is:      3.560
+                              at position (in Haldane cM):      6.6609
+                      obtained by using an alpha value of:      1.000
+     
+________________________________________________________________________________
+     
+                      Episodic Ataxia (EA) pedigree: LOD score
+     
+                      Recombination Statistics from SimWalk2 2.91
+     
+     
+ Here, for each marker interval, is the number of recombinations observed
+ and the number expected, given the total number of meioses & the interval size.
+     
+ The 'observed value' listed below is the average over all pedigrees that were
+ sampled during the MCMC phase. Thus, this value is an estimate of the average
+ over all possible configurations each weighted by its likelihood, i.e.,
+ given the data, this is our best estimate of the true value.
+     
+ We also estimate the p-value for these observations, i.e., the probability that
+ one would observe this many recombination events OR MORE within this interval,
+ again given the total number of meioses & the interval size. A very small
+ p-value indicates that the number of observed recombinations would be more
+ consistent with a larger recombination distance for this marker interval.
+ Similarly, a p-value close to 1 indicates that the user-specified recombination
+ distance for this interval should be re-evaluated and perhaps made smaller.
+ Such extreme p-values are flagged when they appear.
+     
+     
+ The total number of pedigrees actually analyzed here:              1
+ The total number of meioses contained in these pedigrees:         40
+     
+ Since the user-specified recombination distances are sex-independent,
+ we report the combined female and male recombination statistics.
+     
+     
+     
+                     OVERALL RECOMBINATION STATISTICS
+     
+     
+ POSITION   MARKER     RECOMB.   RECOMBINATION EVENTS   SIGNIFICANCE    INTERVAL
+Haldane cM   NAME     FRACTION    OBSERVED & EXPECTED     (P-VALUE)      NUMBER 
+     
+    0.000   S91     
+                       0.01000       0.225      0.400      0.83532          1
+    1.010   S100    
+                       0.01000       0.203      0.400      0.85190          2
+    2.020   CACNL1A1
+                       0.03000       1.014      1.200      0.69886          3
+    5.114   S372    
+                       0.03000       2.727      1.200      0.16172          4
+    8.208   pY2/1   
+                       0.01000       0.320      0.400      0.76368          5
+    9.218   pY21/1  
+                       0.01000       1.078      0.400      0.29520          6
+   10.228   KCNA5   
+                       0.01000       0.087      0.400      0.93812          7
+   11.238   S99     
+                       0.01000       0.373      0.400      0.72406          8
+   12.248   S93     
+     
+     
+________________________________________________________________________________
+     
+                      Episodic Ataxia (EA) pedigree: LOD score
+     
+                      Batch Instruction Parameters
+     
+     
+ Below are listed the SimWalk2 2.91 instruction parameters used in this run.
+ Also, where appropriate, the default values of the batch items are listed.
+     
+ (Please see the documentation for a more complete description
+  of the meaning of these parameters.)
+     
+     
+Batch                                                                 Actual    
+Item              GENERAL PARAMETERS                                  Value     
+     
+# 1    Type of analysis:                                        LOCATION SCORE 
+# 2    Integer label attached to the output files:                      22     
+# 3    Title for this run is the above title:                      (see above) 
+# 4    Continuation of previous run?                                    NO     
+       Number of pedigrees analyzed in this entire run:                  1     
+     
+     
+Batch                                                                 Actual    
+Item              INPUT-FILE PARAMETERS                               Value     
+     
+#09    Map data filename:                                              MAP.DAT 
+#10    Locus data filename:                                          LOCUS.DAT 
+#11    Pedigree data filename:                                    PEDIGREE.DAT 
+#12.1  Symbol for females (case insensitive):                            F     
+#12.2  Symbol for   males (case insensitive):                            M     
+#13.1  Trait locus included in analyzed data?                          YES     
+#13.2  'A priori' proportion of linked pedigrees:                        1.000 
+#16    Affection status is indicated by the label:                       2     
+#17    Affection status is indicated at the:                       TRAIT LOCUS 
+#18    Number of quantitative variables:                                 1     
+#19    Trait penetrances filename:                                     PEN.DAT 
+     
+Model at the trait locus named: EA      
+     
+ ALLELE                         FREQUENCY
+  1                              0.99990
+  2                              0.00010
+     
+ PHENOTYPE                      COMPATIBLE ORDERED GENOTYPES
+  1                             1/1       1/2       2/2     
+  1                                       2/1               
+  2                             1/1       1/2       2/2     
+  2                                       2/1               
+     
+ PHENOTYPE/LIABILITY            PENETRANCES FOR UNORDERED GENOTYPES:
+        CLASS                     1/1          1/2          2/2    
+         101                     0.999000     0.010000     0.010000
+         201                     0.001000     0.990000     0.990000
+     
+Marker Map:
+     
+POSITION (Haldane cM)    MARKER        RECOMBINATION RATES     INTERVAL 
+   FEMALE  &   MALE       ORDER         FEMALE  &   MALE        NUMBER  
+    0.000      0.000    S91     
+                                       0.01000    0.01000          1
+    1.010      1.010    S100    
+                                       0.01000    0.01000          2
+    2.020      2.020    CACNL1A1
+                                       0.03000    0.03000          3
+    5.114      5.114    S372    
+                                       0.03000    0.03000          4
+    8.208      8.208    pY2/1   
+                                       0.01000    0.01000          5
+    9.218      9.218    pY21/1  
+                                       0.01000    0.01000          6
+   10.228     10.228    KCNA5   
+                                       0.01000    0.01000          7
+   11.238     11.238    S99     
+                                       0.01000    0.01000          8
+   12.248     12.248    S93     
+     
+     
+Batch                                                      Default    Actual    
+Item              RUN-SPECIFYING PARAMETERS                 Value     Value     
+     
+#20    Number of pedigrees sampled for each input pedigree  1000      1000      
+#21    Number of parallel runs during simulated annealing:     1         1      
+#22    Initial temperature value:                            100.00    100.00   
+#23    Temperature change factor:                              0.99      0.99   
+#24    Number of temperature changes:                        800       800      
+#25    Number of pre-simulated annealing steps:                0         0      
+#26    Maximum number of attempts to initialize pedigrees:    64        64      
+     
+       Number of steps per temperature is roughly:                    5200     
+#29.1    using a minimum number of steps of:                1000      1000      
+#30.1    and a multiplicative factor of:                      10        10      
+       Number of steps per sampled pedigree is roughly:               5200     
+#29.2    using a minimum number of steps of:                1000      1000      
+#30.2    and a multiplicative factor of:                      10        10      
+       Mean number of transitions per step
+#31.1    during simulated annealing:                           2.00      2.00   
+#31.2    during Markov chain Monte Carlo process:              2.00      2.00   
+       Weight factor for individuals untyped at a locus
+#32.1    during simulated annealing:                          10        10      
+#32.2    during Markov chain Monte Carlo process:             10        10      
+       Frequency that next pivot is forced to be nearby
+#33.1    during simulated annealing:                           0.50      0.50   
+#33.2    during Markov chain Monte Carlo process:              0.50      0.50   
+       Frequency that a founder transition is of type 2
+#34.1    during simulated annealing:                           0.25      0.25   
+#34.2    during Markov chain Monte Carlo process:              0.25      0.25   
+#35    Number of steps between free runs:                      0         0      
+#36.1  Random seed number 1:                               27713     27713     
+#36.2  Random seed number 2:                                2321      2321     
+#36.3  Random seed number 3:                               18777     18777     
+#37.1  Error model for mistyping:                          uniform   uniform    
+#37.2  Overall rate of mistyping:                              0.025     0.025  
+     
+     
+Batch                                                                 Actual    
+Item              OUTPUT-FILE PARAMETERS                              Value     
+     
+#39    Files to output from IBD analysis:                        IBD & KINSHIP 
+#40    Output the pedigrees individually in INPED-nn.mmm?               NO     
+#41    Output the location scores per pedigree in SCORE-nn.mmm?         NO     
+#42    Threshold for mistyping probability to be significant:            0.50  
+#43    Export haplotypes for drawing applications?                      NO     
+#44.1  Threshold haplotype   count for RERUN-nn.PED entry:               0     
+#44.2  Threshold recombinant count for RERUN-nn.PED entry:               0     
+#45    Threshold fraction of steps for RERUN-nn.PED entry:               0.85  
+#46.1  Output haplotypes in vertical representations?                   NO     
+#46.2  Output haplotypes using founder-haplotype labels?                NO     
+#46.3  Force allele choice when no allele information exists?           NO     
+#47    Output the sampled peds in LINKAGE-format in MODEL-nn.*?         NO     
+#48    Num. of unconditional simulations for empirical p-value:      10000     
+#49.1  Number of points analyzed within each marker interval:            0     
+#49.2  Size of uniform grid interval for analysis positions:             1.00  
+     
+     
+     With the above parameters, the number of steps
+       per simulated annealing run is roughly:                     4160000     
+       per Markov chain Monte Carlo run is roughly:                5200000     
+     
+     
+All relevant 'Run-Specifying Parameters' are at their default values.
+     
+________________________________________________________________________________
+     
