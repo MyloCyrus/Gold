@@ -1,0 +1,60 @@
+ SimWalk2 version 2.91                                                   
+                                                                               
+                                                                               
+       Type of data analysis:         Haplotyping                              
+                                                                               
+       Locus data INPUT file:         LOCUS.DAT                                
+       Pedigree data INPUT file:      PEDIGREE.DAT                             
+       Map data INPUT file:           MAP.DAT                                  
+                                                                               
+                                                                               
+       Individual OUTPUT files:       HAPLO-11.mmm                             
+       Overall OUTPUT file:           QUICK-11.ALL                             
+       Summary OUTPUT file:           TABLE-11.ALL                             
+       Copy of all screen output:     VIDEO-11.TXT                             
+                                                                               
+       Here 'mmm' is from the order within the input pedigree file,            
+       e.g., '001' for the first pedigree, etc.                                
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+  Working on data initialization ...                                           
+   WARNING. In the locus file: LOCUS.DAT                                       
+            for the following loci, minor adjustments had to be made           
+            to the allele frequencies to force them to sum to 1.0:             
+            CACNL1A1  pY2/1     KCNA5     S93                                  
+   Map data file 'MAP.DAT' completed initialization;                           
+   Locus data file 'LOCUS.DAT' completed initialization;                       
+   Pedigree #001 completed initialization;                                     
+  All data completed initialization.                                           
+                                                                               
+                                                                               
+  Working on pedigree analysis ...                                             
+                                                                               
+   Pedigree #001 ('20') working on haplotyping ...                             
+      (Found an initial consistent state.)                                     
+          25% done ...                                                         
+          50% done ...                                                         
+          75% done ...                                                         
+   Pedigree #001 ('20') completed haplotyping.                                 
+                                                                               
+  All individual pedigrees completed analysis.                                 
+                                                                               
+  Now combining individual results into overall results...                     
+  Overall results completed.                                                   
+                                                                               
+  Please see the following output files.                                       
+                                                                               
+       Individual OUTPUT files:       HAPLO-11.mmm                             
+       Overall OUTPUT file:           QUICK-11.ALL                             
+       Summary OUTPUT file:           TABLE-11.ALL                             
+       Copy of all screen output:     VIDEO-11.TXT                             
+                                                                               
+       Here 'mmm' is from the order within the input pedigree file,            
+       e.g., '001' for the first pedigree, etc.                                
+                                                                               
+                                                                               
+  Program run completed!                                                       
+                                                                               
+                                                                               
