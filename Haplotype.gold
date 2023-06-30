@@ -1,0 +1,100 @@
+Episodic Ataxia (EA) pedigree: Haplotype
+      
+       Quick View of the Haplotype Analysis from SimWalk2 2.91
+      
+      
+ Below you will find a quick view of the best haplotype vector found for each
+ pedigree analyzed. Specifically, for each pedigree the quick view includes
+ one line for each founder, listing their name, sex and trait value (if any).
+ For each non-founder there is a set of two lines and then a blank line.
+ The data lines contain the following information, in order: the letter
+ 'M' or 'P' (indicating whether this is the maternal or paternal haplotype),
+ the child's name, their mother's name, their father's name, their sex,
+ their trait value (if any), the haplotype's 'source information',
+ a series of letters 'R' (one for each recombination in the haplotype),
+ the run label, the number of the pedigree, and finally the pedigree name.
+ The 'source information' for a haplotype is a string of digits, one for each
+ allele in the haplotype, indicating the grandparental source of the allele.
+ A '1' indicates the corresponding allele came from a grandmaternal haplotype,
+ and a '2' indicates grandpaternal origin. Thus any transition from a '1' to a
+ '2', or vice versa, in either the maternal or paternal haplotypes, implies
+ a recombination event within that haplotype.
+      
+________________________________________________________________________________
+                                                                                
+ The results for the pedigree named: 20                                         
+ which is pedigree number:           001                                        
+                                                                                
+ This haplotype run has the label:   11                                         
+ The number of individuals is:       29                                         
+                                                                                
+M 1        1000     1001     M 2        111111111     11 001 20                 
+P 1        1000     1001     M 2        222222222     11 001 20                 
+                                                                                
+  1001                       M 1                                                
+M 1000     2001     2002     F 2        222222222     11 001 20                 
+P 1000     2001     2002     F 2        111111111     11 001 20                 
+                                                                                
+M 100      1000     1001     M 1        222222222     11 001 20                 
+P 100      1000     1001     M 1        222211222 RR  11 001 20                 
+                                                                                
+  2002                       M 1                                                
+  2001                       F                                                  
+M 1002     2001     2002     M 1        111111111     11 001 20                 
+P 1002     2001     2002     M 1        111111111     11 001 20                 
+                                                                                
+M 1006     2001     2002     F 2        222222222     11 001 20                 
+P 1006     2001     2002     F 2        111111111     11 001 20                 
+                                                                                
+  1007                       M 1                                                
+M 1008     2001     2002     F 2        222222222     11 001 20                 
+P 1008     2001     2002     F 2        222222222     11 001 20                 
+                                                                                
+  1009                       M 1                                                
+  199                        F 1                                                
+M 1010     2001     2002     F 2        222222222     11 001 20                 
+P 1010     2001     2002     F 2        222222222     11 001 20                 
+                                                                                
+  1011                       M 1                                                
+M 102      1000     1001     M 2        111111111     11 001 20                 
+P 102      1000     1001     M 2        111111111     11 001 20                 
+                                                                                
+  103                        F 1                                                
+  104                        F 1                                                
+M 113      1006     1007     F 2        111122222 R   11 001 20                 
+P 113      1006     1007     F 2        222222222     11 001 20                 
+                                                                                
+M 114      1006     1007     F 2        111111111     11 001 20                 
+P 114      1006     1007     F 2        111122222 R   11 001 20                 
+                                                                                
+M 115      1008     1009     M 2        111111111     11 001 20                 
+P 115      1008     1009     M 2        111111111     11 001 20                 
+                                                                                
+M 116      1010     1011     M 2        111111111     11 001 20                 
+P 116      1010     1011     M 2        111111111     11 001 20                 
+                                                                                
+M 117      1010     1011     F 1        222222222     11 001 20                 
+P 117      1010     1011     F 1        222222222     11 001 20                 
+                                                                                
+M 9099     199      100      M 1        222222222     11 001 20                 
+P 9099     199      100      M 1        222222222     11 001 20                 
+                                                                                
+M 9098     199      100      F          111111111     11 001 20                 
+P 9098     199      100      F          111111111     11 001 20                 
+                                                                                
+M 9097     199      100      M 1        222222222     11 001 20                 
+P 9097     199      100      M 1        222222222     11 001 20                 
+                                                                                
+M 9003     103      102      M 2        111111111     11 001 20                 
+P 9003     103      102      M 2        111111111     11 001 20                 
+                                                                                
+M 9004     103      102      M 1        222222222     11 001 20                 
+P 9004     103      102      M 1        111122222 R   11 001 20                 
+                                                                                
+M 9005     104      1        F 2        111111111     11 001 20                 
+P 9005     104      1        F 2        111111111     11 001 20                 
+                                                                                
+M 9006     104      1        M          111111111     11 001 20                 
+P 9006     104      1        M          222222222     11 001 20                 
+                                                                                
+________________________________________________________________________________
