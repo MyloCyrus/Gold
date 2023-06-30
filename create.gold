@@ -1,0 +1,17 @@
+
+
+```python
+import pdb
+
+def create_gold_file():
+    pdb.set_trace()  # Start debugging
+
+    file_name = "gold.txt"
+    file_content = "Create .gold"
+
+    with open(file_name, "w") as file:
+        file.write(file_content)
+
+create_gold_file()
+```
+
