@@ -1,0 +1,35 @@
+create cmake HCL file generate .gold file extension via javascript and python assign color "gold" using HTML tags generate gold color : "gold" print "(your URL)" name (csv:name) generate ColorSum header (stylesheet, json, run-command) with CSS & JSON coding, compile code using php, generate image with raw javascript code.
+
+graphiccache
+
+npm
+
+My code base
+
+I’ll explain here what I need, how I combine, what tools I use for implementing HTML, CSS and Javascript code.
+
+Text editors: vim, emacs, acpi, vim-ruby, vim-gtk, vim-html
+
+Coding CMS: HTML (std) & CSS
+
+Programming language: HTML, Javascript
+
+Programming tools: PHP, Javascript, Python
+
+Database: MySQL, SQLite
+
+Database manager: Percona XtraDB
+
+HTML & CSS editor: HTMLShop (HTML5), CSSShop (CSS2), CSSLite (CSS3)
+
+HTML editor: TextTeX
+
+Text editor: Textmax (HTML), VisiJ
+
+CSS editor: CSSLite
+
+Visual layout tools: HTMLWidget (HTML5), HTML5Fiddle (HTML5), CSS2Flip (CSS2), CSS2Flip2 (CSS3)
+
+Coder
+
+In my CMS project I’m using two ways to generate code: html code generator in PHP and javascript code generator in Python. html code generator generates
